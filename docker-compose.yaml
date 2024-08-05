@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  localstack:
+      container_name: terraform-localstack
+      image: localstack/localstack:3.1.0
+      ports:
+        - "4566:4566"
+        - "4510-4559:4510-4559"
+      environment:
+        - DOCKER_HOST=unix:///var/run/docker.sock
+      volumes:
+        - /var/run/docker.sock:/var/run/docker.sock
