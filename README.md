@@ -1,6 +1,9 @@
 # Projeto
 
-![alt text](assets/project.png "Projeto")
+<p align="center">
+  <img src="assets/project.png" />
+</p>
+
 
 
 ## Depêndencias
