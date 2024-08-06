@@ -6,7 +6,7 @@
 
 
 
-## Depêndencias
+## Dependências
 
 Para conseguir rodar este projeto é necessário tem instalado docker, docker compose e o terraform. Recomendo que instale o [tfnv](https://github.com/tfutils/tfenv) para gerenciar as versões do terraform.
 
